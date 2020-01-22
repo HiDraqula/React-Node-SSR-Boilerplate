@@ -1,5 +1,5 @@
 # DevD
-`npm i --save-dev @babel/cli @babel/core @babel/preset-env @babel/preset-react @babel/plugin-proposal-class-properties mongoose webpack webpack-cli` 
+`npm i --save-dev @babel/cli @babel/core @babel/preset-env @babel/preset-react @babel/plugin-proposal-class-properties mongoose webpack webpack-cli cors` 
 
 **for webpack**
 
