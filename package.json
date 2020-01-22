@@ -1,7 +1,7 @@
 {
-  "name": "accessoriezworld",
+  "name": "React-Node-SSR-Boilerplate",
   "version": "1.0.0",
-  "description": "MotorBike Parts & Accessories Store ",
+  "description": "Boilerplate for React Node SSR",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
