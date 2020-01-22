@@ -7,7 +7,7 @@
 
 **Optional**
 
-    npm i -g nodemon
+    npm i -g nodemon browser-refresh webpack webpack-cli
    
 # Dev
 
