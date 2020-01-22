@@ -1,0 +1,45 @@
+<!-- HTML -->
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+	<meta name="robots" content="noindex" />
+        <meta charset="utf-8" />
+        <!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#022143" />
+        <meta name="description" content="Web site created using create-react-app" />
+        <link rel="apple-touch-icon" href="logo192.png" />
+        <link rel="stylesheet" href="/static/css/all.css">
+        <link rel="stylesheet" href="/static/css/app.css">
+        <!-- <HELMET /> -->
+    </head>
+    <body>
+        <div id="root">
+        <!-- <HTML /> -->
+        </div>
+        
+    </body>
+    <!-- <script type="text/javascript" src="/static/js/vendors~admin~main.js"></script> -->
+        <script type="text/javascript" src="/assets/vendors~main.js"></script>
+        <script type="text/javascript" src="/assets/main.js"></script>
+        <!-- <script type="text/javascript" src="/static/js/vendors~main.js"></script>
+        <script type="text/javascript" src="/static/js/main.js"></script> -->
+        __BROWSER_REFRESH_URL__
+        <style>
+            @font-face {
+            font-family: HN;
+            src: url(/fonts/HelveticaNeue-Heavy.otf);
+            font-weight: bold;
+            }
+            @font-face {
+            font-family: SF;
+            src: url(/fonts/SF-UI-Display-Regular.otf);
+            font-weight: normal;
+            }
+            @font-face {
+            font-family: avenir;
+            src: url(/fonts/AvenirLTStd-Light.otf);
+            font-weight: normal;
+            }
+        </style>
+    </html>

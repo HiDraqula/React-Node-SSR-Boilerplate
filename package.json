@@ -1,0 +1,63 @@
+{
+  "name": "accessoriezworld",
+  "version": "1.0.0",
+  "description": "MotorBike Parts & Accessories Store ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "node_modules/.bin/webpack",
+    "run-dev-ssr": "node_modules/.bin/webpack --config webpack.config.js --watch --mode=development & babel src -d ssr --watch & browser-refresh index.js",
+    "babelIdx": "node_modules/.bin/babel main.js -o index.js",
+    "babelSrc": "node_modules/.bin/babel src -d ssr",
+    "babel": "npm run babelSrc && npm run babelIdx",
+    "build": "npm run webpack && npm run babel",
+    "start": "node index.js",
+    "serve": "npm run build && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiDraqula/accessoriezworld.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "node",
+    "mongodb",
+    "ecommerce"
+  ],
+  "author": "Aniket Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HiDraqula/accessoriezworld/issues"
+  },
+  "homepage": "https://github.com/HiDraqula/accessoriezworld#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-redux": "^7.1.3",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-slick": "^0.25.2",
+    "react-toastify": "^5.5.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^3.4.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
