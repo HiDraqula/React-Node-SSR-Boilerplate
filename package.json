@@ -16,21 +16,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HiDraqula/accessoriezworld.git"
+    "url": "git+https://github.com/HiDraqula/React-Node-SSR-Boilerplate.git"
   },
   "keywords": [
     "react",
     "reactjs",
     "node",
-    "mongodb",
-    "ecommerce"
+    "Helmet.js"
   ],
   "author": "Aniket Sharma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HiDraqula/accessoriezworld/issues"
+    "url": "https://github.com/HiDraqula/React-Node-SSR-Boilerplate/issues"
   },
-  "homepage": "https://github.com/HiDraqula/accessoriezworld#readme",
+  "homepage": "https://github.com/HiDraqula/React-Node-SSR-Boilerplate#readme",
   "dependencies": {
     "axios": "^0.19.1",
     "react": "^16.12.0",
