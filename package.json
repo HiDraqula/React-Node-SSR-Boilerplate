@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/HiDraqula/React-Node-SSR-Boilerplate#readme",
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
